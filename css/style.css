@@ -1,0 +1,45 @@
+.fondo_azul {
+    background-color: blue;
+}
+
+.fondo_morado {
+    background-color: #7c3aed;
+}
+
+.fondo_verde {
+    background-color: green;
+}
+
+.fondo_gris {
+    background-color: #4b5563;
+}
+
+#enlaces a {
+    color: #60a5fa;
+}
+
+#enlaces a:hover {
+    color: #f87171;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+ul li:last-child {
+    color: #f87171;
+    background-color: green;
+}
+
+ol li:first-child {
+    font-weight: bold;
+}
+
+ol li:last-child {
+    color: #fbbf24;
+    background-color: #374151;
+}
+
+.hover:hover {
+    color: red;
+}
