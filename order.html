@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzería El Buen Sabor - Ordena ahora</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ordena Ahora</h1>
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Más sobre nosotros</a></li>
+          <li><a href="pizza-detail.html">Menú</a></li>
+          <li><a href="order.html">Ordena ahora</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <h2>Menú disponible</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Pizza</th>
+              <th>Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pepperoni</td>
+              <td>$180</td>
+            </tr>
+            <tr>
+              <td>Cuatro Quesos</td>
+              <td>$195</td>
+            </tr>
+            <tr>
+              <td>Mexicana</td>
+              <td>$190</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div>
+        <h2>Formulario de pedido</h2>
+        <form action="order.html" method="get">
+          <p>
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre">
+          </p>
+          <p>
+            <label for="direccion">Dirección:</label><br>
+            <input type="text" id="direccion" name="direccion">
+          </p>
+          
+          <fieldset>
+            <legend>Selecciona tu pizza</legend>
+            <input type="radio" id="pizza-pepperoni" name="pizza" value="pepperoni" checked>
+            <label for="pizza-pepperoni">Pepperoni</label><br>
+            
+            <input type="radio" id="pizza-cuatro" name="pizza" value="cuatro-quesos">
+            <label for="pizza-cuatro">Cuatro Quesos</label><br>
+            
+            <input type="radio" id="pizza-mexicana" name="pizza" value="mexicana">
+            <label for="pizza-mexicana">Mexicana</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Tamaño</legend>
+            <input type="radio" id="mediana" name="tamano" value="mediana" checked>
+            <label for="mediana">Mediana</label><br>
+            <input type="radio" id="grande" name="tamano" value="grande">
+            <label for="grande">Grande</label>
+          </fieldset>
+          
+          <p>
+            <label for="cantidad">Cantidad:</label><br>
+            <input type="number" id="cantidad" name="cantidad" min="1" value="1">
+          </p>
+          <p>
+            <label for="comentarios">Comentarios adicionales:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="35"></textarea>
+          </p>
+          <p><button type="submit">Enviar pedido</button></p>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>2026 Pizzería El Buen Sabor</p>
+    </footer>
+  </body>
+</html>
