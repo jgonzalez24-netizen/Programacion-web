@@ -1,13 +1,28 @@
+@font-face {
+    font-family: 'Bighorn';
+    src: url('assets/fonts/Bighorn.otf') format('opentype');
+}
+
+h1 {
+    font-family: 'Bighorn', sans-serif;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .fondo_azul {
     background-color: blue;
+    text-align: justify;
 }
 
 .fondo_morado {
     background-color: #7c3aed;
+    text-align: right;
 }
 
 .fondo_verde {
     background-color: green;
+    text-transform: uppercase;
 }
 
 .fondo_gris {
@@ -16,10 +31,16 @@
 
 #enlaces a {
     color: #60a5fa;
+    text-decoration: none;
 }
 
 #enlaces a:hover {
     color: #f87171;
+    text-decoration: underline;
+}
+
+.importante {
+    text-decoration: underline;
 }
 
 ul li:first-child {
