@@ -131,3 +131,10 @@ ol li:last-child {
 .work .hover:hover {
     color: black;
 }
+
+body.container {
+    background-image: url("../imagen/avebackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
