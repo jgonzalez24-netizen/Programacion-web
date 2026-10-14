@@ -138,3 +138,7 @@ body.container {
     background-position: center;
     background-repeat: no-repeat;
 }
+.work .fondo_azul {
+    position: sticky;
+    top: 30px;
+}
