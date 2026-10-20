@@ -142,3 +142,15 @@ body.container {
     position: sticky;
     top: 30px;
 }
+.inicio #enlaces {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.inicio #enlaces a {
+    padding: 8px;
+    border: 1px solid white;
+    text-align: center;
+}
