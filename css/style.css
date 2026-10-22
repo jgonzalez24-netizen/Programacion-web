@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+body.container {
+  background-color: #f5f5f5;
+}
+
+.encabezado {
+  padding: 20px;
+  background-color: #b22222;
+  border-bottom: 4px solid #8b0000;
+  color: white;
+  text-align: center;
+}
+
+.encabezado h1 {
+  margin: 0 0 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+}
+
+#enlaces ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#enlaces a {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#enlaces a:hover {
+  text-decoration: underline;
+}
+
+.work {
+  width: 85%;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  background-color: white;
+}
+
+.work section {
+  margin: 0;
+  padding: 20px;
+  border: 0;
+  border-bottom: 1px solid #cccccc;
+  background-color: white;
+}
+
+.work section:last-child {
+  border-bottom: 0;
+}
+
+.work h2 {
+  margin-top: 0;
+  color: #b22222;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.inicio .work section:first-child {
+  background-color: #fffaf0;
+}
+
+.nosotros .work section:nth-child(2) {
+  background-color: #fffaf0;
+}
+
+.foto-pizza {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 12px;
+  border: 2px solid #cccccc;
+}
+
+ul,
+ol {
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+ul li,
+ol li {
+  font-weight: bold;
+}
+
+a {
+  color: #b22222;
+}
+
+a:hover {
+  color: #333333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  margin-bottom: 8px;
+  color: #b22222;
+  font-weight: bold;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  text-align: left;
+}
+
+th {
+  background-color: #eeeeee;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.pie-pagina {
+  width: 85%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 18px;
+  background-color: #b22222;
+  border-top: 4px solid #8b0000;
+  color: white;
+  text-align: center;
+}
+
+.pie-pagina p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .encabezado h1 {
+    font-size: 26px;
+  }
+
+  #enlaces ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .work,
+  .pie-pagina {
+    width: 94%;
+  }
+
+  .work section {
+    padding: 15px;
+  }
+
+  th,
+  td {
+    padding: 7px;
+    font-size: 14px;
+  }
+}

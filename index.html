@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzería El Buen Sabor - Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <header>
+  <body class="container inicio">
+    <header class="encabezado">
       <h1>Pizzería El Buen Sabor</h1>
-      <nav aria-label="Navegación principal">
+      <nav id="enlaces" aria-label="Navegación principal">
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="about.html">Más sobre nosotros</a></li>
@@ -19,31 +20,31 @@
       </nav>
     </header>
 
-    <main>
-      <div>
+    <main class="work">
+      <section>
         <h2>Bienvenidos</h2>
         <p>Preparamos pizzas artesanales con ingredientes frescos y mucho sabor.</p>
-        <img src="pizza_imagen/pizza artesanal.png" width="300">
-      </div>
+        <img class="foto-pizza" src="pizza_imagen/pizza artesanal.png" alt="Pizza artesanal" width="300">
+      </section>
 
-      <div>
+      <section>
         <h2>Nuestro menú</h2>
         <ul>
-          <li><a href="pepperoni.html">Pizza Pepperoni</a></li>
-          <li><a href="cuatroquesos.html">Pizza Cuatro Quesos</a></li>
-          <li><a href="pizza-mexicana.html">Pizza Mexicana</a></li>
+          <li>Pizza Pepperoni</li>
+          <li>Pizza Cuatro Quesos</li>
+          <li>Pizza Mexicana</li>
         </ul>
         <p><a href="pizza-detail.html">Ver el menú completo</a></p>
-      </div>
+      </section>
 
-      <div>
+      <section>
         <h2>Horarios</h2>
         <table>
           <caption>Horario de atención</caption>
           <thead>
             <tr>
-              <th>Día</th>
-              <th>Horario</th>
+              <th scope="col">Día</th>
+              <th scope="col">Horario</th>
             </tr>
           </thead>
           <tbody>
@@ -57,10 +58,10 @@
             </tr>
           </tbody>
         </table>
-      </div>
+      </section>
     </main>
 
-    <footer>
+    <footer class="pie-pagina">
       <p>2026 Pizzería El Buen Sabor</p>
     </footer>
   </body>
