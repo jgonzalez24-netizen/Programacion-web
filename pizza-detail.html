@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzería El Buen Sabor - Menú</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <header>
-      <h1>Menú de Pizzas</h1>
-      <nav aria-label="Navegación principal">
+  <body class="carta-pizzas">
+    <header class="encabezado">
+      <h1 class="Melted-pizzeria">Menú de Pizzas</h1>
+
+      <nav id="enlaces" aria-label="Navegación principal">
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="about.html">Más sobre nosotros</a></li>
@@ -19,49 +21,50 @@
       </nav>
     </header>
 
-    <main>
-      <div>
+    <main class="work">
+      <section>
         <h2>Especialidades de la casa</h2>
+
         <table>
           <caption>Precios del menú</caption>
           <thead>
             <tr>
-              <th>Pizza</th>
-              <th>Ingredientes principales</th>
-              <th>Precio</th>
+              <th scope="col">Pizza</th>
+              <th scope="col">Ingredientes principales</th>
+              <th scope="col">Precio</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><a href="pepperoni.html">Pepperoni</a></td>
+              <td>Pepperoni</td>
               <td>Tomate, mozzarella y pepperoni</td>
               <td>$180</td>
             </tr>
             <tr>
-              <td><a href="cuatroquesos.html">Cuatro Quesos</a></td>
+              <td>Cuatro Quesos</td>
               <td>Mozzarella, gorgonzola, parmesano y provolone</td>
               <td>$195</td>
             </tr>
             <tr>
-              <td><a href="pizza-mexicana.html">Mexicana</a></td>
+              <td>Mexicana</td>
               <td>Chorizo, jalapeño, cebolla y queso</td>
               <td>$190</td>
             </tr>
           </tbody>
         </table>
-      </div>
+      </section>
 
-      <div>
+      <section>
         <h2>Elige tu favorita</h2>
         <ul>
-          <li><a href="pepperoni.html">Más sobre la pizza Pepperoni</a></li>
-          <li><a href="cuatroquesos.html">Más sobre la pizza Cuatro Quesos</a></li>
-          <li><a href="pizza-mexicana.html">Más sobre la pizza Mexicana</a></li>
+          <li><a href="order.html">Pedir pizza Pepperoni</a></li>
+          <li><a href="order.html">Pedir pizza Cuatro Quesos</a></li>
+          <li><a href="order.html">Pedir pizza Mexicana</a></li>
         </ul>
-      </div>
+      </section>
     </main>
 
-    <footer>
+    <footer class="pie-pagina">
       <p>2026 Pizzería El Buen Sabor</p>
     </footer>
   </body>
